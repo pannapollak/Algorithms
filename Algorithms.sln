@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dojos", "Dojo\Dojos.csproj", "{CC648FCB-5CB8-4EB0-843F-48842E1803D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequence", "FibonacciSequence\FibonacciSequence.csproj", "{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC648FCB-5CB8-4EB0-843F-48842E1803D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC648FCB-5CB8-4EB0-843F-48842E1803D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC648FCB-5CB8-4EB0-843F-48842E1803D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC648FCB-5CB8-4EB0-843F-48842E1803D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
