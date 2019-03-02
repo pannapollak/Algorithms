@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequence", "FibonacciSequence\FibonacciSequence.csproj", "{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMapDojo", "HashMapDojo\HashMapDojo.csproj", "{D754115C-EA61-4240-9BC5-3E9B1F144654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberFinder", "PrimeNumberFinder\PrimeNumberFinder.csproj", "{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3CBE542-9153-4D34-B0C7-CCED5AE9A9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D754115C-EA61-4240-9BC5-3E9B1F144654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D754115C-EA61-4240-9BC5-3E9B1F144654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D754115C-EA61-4240-9BC5-3E9B1F144654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D754115C-EA61-4240-9BC5-3E9B1F144654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
