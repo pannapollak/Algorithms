@@ -8,7 +8,7 @@ namespace PrimeNumberFinder
 {
     class PrimeChecker
     {
-        public int isItPrime = 2;
+        public int isItPrime = 4;
 
         public bool CheckIfDivisibleByTwoThreeFive()
         {
@@ -31,7 +31,7 @@ namespace PrimeNumberFinder
         static void Main(string[] args)
         {
             PrimeChecker check = new PrimeChecker();
-            Console.WriteLine(check.CheckIfDivisibleByTwoThreeFive());
+            Console.WriteLine("Is it prime? " + check.CheckIfDivisibleByTwoThreeFive());
            
         }
     }
