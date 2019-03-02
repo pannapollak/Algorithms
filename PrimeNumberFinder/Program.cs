@@ -8,29 +8,30 @@ namespace PrimeNumberFinder
 {
     class PrimeChecker
     {
-        public int isItPrime = 32;
+        public int isItPrime = 2;
 
-        public bool CheckIfDivisibleByTwoThreeFive(int isItPrime)
+        public bool CheckIfDivisibleByTwoThreeFive()
         {
 
-            if (isItPrime != 2 ||
-                isItPrime != 3 ||
-                isItPrime != 5 ||
-                isItPrime % 2 == 0 ||
-                isItPrime % 3 == 0 ||
-                isItPrime % 5 == 0)
+            if (isItPrime != 1 &&
+                isItPrime != 2 &&
+                isItPrime != 3 &&
+                isItPrime != 5)
             {
-                return false;
+                if (isItPrime % 2 == 0 ||
+                    isItPrime % 3 == 0 ||
+                    isItPrime % 5 == 0)
+                {
+                    return false;
+                }
             }
-            else
-            {
-                return true;
-            }
+            return true;
         }
 
         static void Main(string[] args)
         {
-            
+            PrimeChecker check = new PrimeChecker();
+            Console.WriteLine(check.CheckIfDivisibleByTwoThreeFive());
            
         }
     }
