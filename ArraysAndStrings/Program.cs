@@ -26,19 +26,24 @@ namespace ArraysAndStrings
 
         public bool CheckPermutation(string word1, string word2)
         {
-            var word1List = new SortedList<char, int>();
-            foreach (var letter in word1)
+            return true;
+        }
+
+        public SortedList<char, int> SortCharacters(string wordToCheck)
+        {
+            var listOfWord = new SortedList<char, int>();
+            foreach (var letter in wordToCheck)
             {
-                if (word1List.ContainsKey(letter))
+                if (listOfWord.ContainsKey(letter))
                 {
-                    word1List[letter] += 1;
+                    listOfWord[letter] += 1;
                 }
                 else
                 {
-                    word1List.Add(letter, 1);
+                    listOfWord.Add(letter, 1);
                 }
             }
-            return true;
+            return listOfWord;
         }
 
         public string Urlify(string stringWithSpaces)
