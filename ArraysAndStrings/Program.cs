@@ -8,7 +8,7 @@ namespace ArraysAndStrings
 {
     class Program
     {
-        //help
+
         public bool IsUnique(string word)
         {
             for (int index = 0; index < word.Length; index++)
@@ -37,7 +37,7 @@ namespace ArraysAndStrings
         static void Main(string[] args)
         {
             Program start = new Program();
-            Console.WriteLine(start.IsUnique("qwertzuiopélkjhgfdsyxcvbnm,."));
+            Console.WriteLine(start.IsUnique("qwertzuiopélkjhgfdsyxcvbnm"));
 
         }
     }

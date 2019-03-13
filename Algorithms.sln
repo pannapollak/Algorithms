@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMapDojo", "HashMapDojo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberFinder", "PrimeNumberFinder\PrimeNumberFinder.csproj", "{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndStrings", "ArraysAndStrings\ArraysAndStrings.csproj", "{7C315879-9F15-42DB-9107-C5C501B58B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40F659A-5DB7-4B6D-A9F3-06EAD80B86B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C315879-9F15-42DB-9107-C5C501B58B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C315879-9F15-42DB-9107-C5C501B58B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C315879-9F15-42DB-9107-C5C501B58B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C315879-9F15-42DB-9107-C5C501B58B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
