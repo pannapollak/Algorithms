@@ -26,6 +26,18 @@ namespace ArraysAndStrings
 
         public bool CheckPermutation(string word1, string word2)
         {
+            var word1List = new SortedList<char, int>();
+            foreach (var letter in word1)
+            {
+                if (word1List.ContainsKey(letter))
+                {
+                    word1List[letter] += 1;
+                }
+                else
+                {
+                    word1List.Add(letter, 1);
+                }
+            }
             return true;
         }
 
@@ -38,6 +50,7 @@ namespace ArraysAndStrings
         {
             Program start = new Program();
             Console.WriteLine(start.IsUnique("qwertzuiopélkjhgfdsyxcvbnm"));
+            Console.WriteLine(start.CheckPermutation("yessye", "sey"));
 
         }
     }
