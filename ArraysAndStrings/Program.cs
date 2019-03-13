@@ -26,7 +26,11 @@ namespace ArraysAndStrings
 
         public bool CheckPermutation(string word1, string word2)
         {
-            return true;
+            if (SortCharacters(word1).SequenceEqual(SortCharacters(word2)))
+            {
+                return true;
+            }
+            return false;
         }
 
         public SortedList<char, int> SortCharacters(string wordToCheck)
@@ -55,7 +59,7 @@ namespace ArraysAndStrings
         {
             Program start = new Program();
             Console.WriteLine(start.IsUnique("qwertzuiopélkjhgfdsyxcvbnm"));
-            Console.WriteLine(start.CheckPermutation("yessye", "sey"));
+            Console.WriteLine(start.CheckPermutation("yessye", "yessye"));
 
         }
     }
