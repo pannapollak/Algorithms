@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ArraysAndStrings
@@ -50,9 +51,11 @@ namespace ArraysAndStrings
             return listOfWord;
         }
 
-        public string Urlify(string stringWithSpaces)
+        public string Urlify(string wordWithSpaces)
         {
-            return "fed";
+            string UrlifiedString = Regex.Replace(wordWithSpaces, " ", "%20");
+
+            return UrlifiedString;
         }
 
         static void Main(string[] args)
@@ -60,7 +63,7 @@ namespace ArraysAndStrings
             Program start = new Program();
             Console.WriteLine(start.IsUnique("qwertzuiopélkjhgfdsyxcvbnm"));
             Console.WriteLine(start.CheckPermutation("yessye", "yessye"));
-
+            Console.WriteLine(start.Urlify("wat up "));
         }
     }
 }
