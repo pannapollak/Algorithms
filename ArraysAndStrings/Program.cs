@@ -63,6 +63,11 @@ namespace ArraysAndStrings
             return true;
         }
 
+        public bool CheckIfOneAway(string first, string second)
+        {
+            return true;
+        }
+
         static void Main(string[] args)
         {
             Program start = new Program();
@@ -70,6 +75,7 @@ namespace ArraysAndStrings
             Console.WriteLine(start.CheckPermutation("yessye", "yessye"));
             Console.WriteLine(start.Urlify("wat up "));
             Console.WriteLine(start.CheckIfPalindrome(""));
+            Console.WriteLine(start.CheckIfOneAway("pali", "lapi"));
         }
     }
 }
