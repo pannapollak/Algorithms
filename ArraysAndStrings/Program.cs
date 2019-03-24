@@ -58,12 +58,18 @@ namespace ArraysAndStrings
             return UrlifiedString;
         }
 
+        public bool CheckIfPalindrome(string isItPalindrome)
+        {
+            return true;
+        }
+
         static void Main(string[] args)
         {
             Program start = new Program();
             Console.WriteLine(start.IsUnique("qwertzuiopélkjhgfdsyxcvbnm"));
             Console.WriteLine(start.CheckPermutation("yessye", "yessye"));
             Console.WriteLine(start.Urlify("wat up "));
+            Console.WriteLine(start.CheckIfPalindrome(""));
         }
     }
 }
