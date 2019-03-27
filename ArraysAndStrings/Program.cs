@@ -65,6 +65,33 @@ namespace ArraysAndStrings
 
         public bool CheckIfOneAway(string first, string second)
         {
+            string longerString;
+            string shorterString;
+            if (first.Length >= second.Length)
+            {
+                longerString = first;
+                shorterString = second;
+            }
+            else
+            {
+                longerString = second;
+                shorterString = first;
+            }
+
+            int awayCounter = 0;
+            int secondIndex = 0;
+            foreach (var letter in longerString)
+            {
+                if (letter != second[secondIndex])
+                {
+                    awayCounter++;
+                }
+                secondIndex++;
+                if (awayCounter > 1)
+                {
+                    return false;
+                }
+            }
             return true;
         }
 
